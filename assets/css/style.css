@@ -108,11 +108,14 @@ p {
     color: #777;
 }
 
-img {
+#mike-img {
     float: left;
     margin-right: 20px;
     margin-top: 10px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-height: 300px;
+    max-width: 200px;
+    border-radius: 10px;
 }
 
 /* Form */
@@ -281,9 +284,13 @@ footer p {
         padding-bottom: 0;
     }
 
-    #mike-img {
-        width: 100%;
-        height: 100%;
+    h2 {
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    about {
+        float: right;
     }
 
     footer {
@@ -310,8 +317,9 @@ footer p {
     }
     
     #mike-img {
-        height: 50%;
-        width: 50%;
+        max-height: 300px;
+        max-width: 200px;
+        margin-bottom: 20px;
     }
 
     footer {
@@ -331,8 +339,8 @@ footer p {
     }
     
     #mike-img {
-        height: 50%;
-        width: 50%;
+        max-height: 300px;
+        max-width: 200px;
     }
 
     footer {
